@@ -63,6 +63,7 @@ public class Triangulo extends FiguraGeometrica {
         this.lado3 = lado3;
     }
 
+    @Override
     public double calcularArea() {
         return (base * altura) / 2;
     }

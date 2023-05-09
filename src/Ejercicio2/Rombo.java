@@ -33,6 +33,7 @@ public class Rombo extends FiguraGeometrica {
         this.diagonalMenor = diagonalMenor;
     }
 
+    @Override
     public double calcularArea() {
         return (diagonalMayor * diagonalMenor) / 2;
     }

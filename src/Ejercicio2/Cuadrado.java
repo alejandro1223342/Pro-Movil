@@ -23,6 +23,7 @@ public class Cuadrado extends FiguraGeometrica {
         this.lado = lado;
     }
 
+    @Override
     public double calcularArea() {
         return lado * lado;
     }
