@@ -23,10 +23,14 @@ public class Pruebas {
         fg2.calcularArea();
         System.out.println("Triangulo " + fg2.calcularArea());
         
+         Triangulo tr = new Triangulo(3, 4, 5, 5, 5);
+        System.out.println("Perimetro Triangulo "+tr.calcularPerimetro());
+        
         FiguraGeometrica fg3 = new Rombo(6, 8);
         fg3.calcularArea();
         System.out.println("Rombo "+fg3.calcularArea());
        
+      
     }
 
 }
