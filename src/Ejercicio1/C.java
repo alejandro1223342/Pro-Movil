@@ -2,20 +2,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Ejercicio2;
+package Ejercicio1;
 
 /**
  *
  * @author alejo
  */
-class Cuadrado extends Figura {
-    private double lado;
+public class C {
 
-    public Cuadrado(double lado) {
-        this.lado = lado;
+    void p(C c) {
+        System.out.println("CC ");
     }
 
-    public double area() {
-        return lado * lado;
+    void p(D d) {
+        System.out.println("CD ");
     }
 }

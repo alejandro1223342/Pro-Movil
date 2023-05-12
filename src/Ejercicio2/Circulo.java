@@ -8,16 +8,14 @@ package Ejercicio2;
  *
  * @author alejo
  */
-class Triangulo extends Figura {
-    private double base;
-    private double altura;
+class Circulo extends Figura {
+    private double radio;
 
-    public Triangulo(double base, double altura) {
-        this.base = base;
-        this.altura = altura;
+    public Circulo(double radio) {
+        this.radio = radio;
     }
 
     public double area() {
-        return base * altura / 2;
+        return Math.PI * radio * radio;
     }
 }

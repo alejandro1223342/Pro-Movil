@@ -8,14 +8,6 @@ package Ejercicio2;
  *
  * @author alejo
  */
-class Cuadrado extends Figura {
-    private double lado;
-
-    public Cuadrado(double lado) {
-        this.lado = lado;
-    }
-
-    public double area() {
-        return lado * lado;
-    }
+abstract class Figura {
+    public abstract double area();
 }
